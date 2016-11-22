@@ -1,0 +1,48 @@
+html {
+  background-color: $color-background;
+
+
+  @media screen and (max-width: $media-md-max) { font-size: 80%; }
+  
+  @media screen and (max-width: $media-sm-max) { font-size: 70%; }
+}
+
+body { margin: 1rem 0; }
+
+@font-face {
+  font-family: 'steelfish';
+  src: url('../fonts/steelfish.ttf')  format('truetype');
+}
+
+* { color: $color-white; }
+
+a { text-decoration: none; }
+
+img { vertical-align: middle; }
+
+.o_section,
+hr {
+  max-width: $media-lg-min;
+  border-bottom: 0;
+}
+
+.o_section {
+  font-family: 'Roboto', serif;
+  margin: 1rem auto;
+  padding: 0 2rem;
+
+  @media screen and (min-width: $media-md-min) { margin: 2rem auto; }
+}
+
+.o_list li {
+  padding-bottom: 0.5rem;
+}
+
+audio { height: 36px; }
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @media screen and (max-width: $media-lg-min) { margin: 0 1rem; }
+}

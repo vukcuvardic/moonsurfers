@@ -1,0 +1,20 @@
+.c_song-list {
+  @include clearfix;
+
+  line-height: 2;
+  font-size: 0.8rem;
+  padding-left: 0;
+  margin: 2rem 0;
+}
+
+.c_song-list li {
+  float: left;
+  display: block;
+  margin-right: 1rem;
+  text-align: center;
+  width: 100%;
+
+  @media screen and (min-width: $media-md-min) and (max-width: $media-md-max) { width: calc(100% / 2 - 1rem);  }
+  
+  @media screen and (min-width: $media-lg-min) { width: calc(100% / 3 - 1rem); }
+}

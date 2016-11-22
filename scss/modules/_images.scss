@@ -1,0 +1,6 @@
+.o_image {
+  max-width: 100%;
+  margin: 1rem 0;
+
+  @media screen and (min-width: $media-sm-max) { margin: 2rem 0; }
+}

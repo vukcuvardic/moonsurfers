@@ -1,0 +1,22 @@
+.c_nav {
+  font-family: 'Roboto', serif;
+  list-style: none;
+  padding-left: 0;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding-top: 0.5rem;
+
+  @media screen and (min-width: $media-md-min) { padding-top: 1rem; }
+}
+
+.c_nav__item  {
+  display: inline;
+
+  &:not(:last-of-type) { margin-right: 2rem };
+
+  &.active {
+    .c_nav__link { color: $color-yellow; }
+  }
+}

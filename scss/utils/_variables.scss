@@ -1,0 +1,10 @@
+$color-background: #190e30;
+$color-white: hsl(0, 0, 95%);
+$color-yellow: #F7C24A;
+
+$media-sm-min: 1px;
+$media-md-min: 600px;
+$media-lg-min: 1000px;
+$media-sm-max: $media-md-min - 1px;
+$media-md-max: $media-lg-min - 1px;
+$media-lg-max: 1920px;

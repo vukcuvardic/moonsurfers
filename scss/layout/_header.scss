@@ -1,0 +1,34 @@
+.l_header {
+  @include clearfix;
+  
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  max-width: $media-lg-min;
+
+  @media screen and (max-width: $media-sm-max) { text-align: center; }
+
+  @media screen and (min-width: $media-md-min) {
+    padding: 1rem;
+    
+  }
+}
+
+.l_header__logo,
+.l_header__nav {
+  @media screen and (max-width: $media-sm-max) {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  @media screen and (min-width: $media-md-min) { float: left; }
+}
+
+.l_header__logo {
+  font-family: steelfish;
+  line-height: 1;
+  font-size: 3.2rem;
+
+  @media screen and (min-width: $media-md-min) { margin-right: 3rem; }
+}
+
+.l_header__logo-yellow { color: $color-yellow; }

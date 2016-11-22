@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /node_modules/
+Disallow: /scss/
+Disallow: /gulpfile.js
+Disallow: /package.json
+Disallow: /dist/fonts/
+Disallow: /dist/js/
+Disallow: /dist/player/
+Disallow: /dist/stylesheets/
+
+Sitemap: http://moonsurfers.rs/sitemap.xml
