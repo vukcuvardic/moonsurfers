@@ -1,6 +1,6 @@
 <!doctype html>
 <?php
-    $ROOT = "/moonsurfers";
+    $ROOT = "";
 
     function navClass($item) {
         global $menu_item;
@@ -25,7 +25,9 @@
     <body>
         <header class="l_header">
             <a class="l_header__logo" href="<?php echo $ROOT; ?>/">
-                MOON<span class="l_header__logo-yellow">SURFERS</span>
+                <h1 class="l_header__logo-headline">
+                    MOON<span class="l_header__logo-yellow">SURFERS</span>
+                </h1>
             </a>
             <nav class="l_header__nav">
                 <?php include('main-nav.php'); ?>

@@ -1,4 +1,7 @@
-.l_footer { text-align: center; }
+.l_footer {
+  text-align: center;
+  color: $color-white;
+}
 
 .c_copyright {
   color: hsl(0, 0, 60%);
@@ -9,6 +12,7 @@
   margin: 1rem 0.5rem;
   opacity: 0.8;
   display: inline-block;
+  color: $color-white;
 
   &:hover { opacity: 1; }
 }

@@ -31,4 +31,11 @@
   @media screen and (min-width: $media-md-min) { margin-right: 3rem; }
 }
 
+.l_header__logo-headline {
+  font-size: inherit;
+  margin: 0;
+  color: $color-white;
+  font-weight: normal;
+}
+
 .l_header__logo-yellow { color: $color-yellow; }

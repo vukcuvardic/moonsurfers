@@ -19,3 +19,9 @@
     .c_nav__link { color: $color-yellow; }
   }
 }
+
+.c_nav__link {
+  color: $color-white;
+
+  &:hover { color: $color-yellow; }
+}
