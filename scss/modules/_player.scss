@@ -1,0 +1,63 @@
+.c_player {
+  position: relative;
+  margin: 0 auto;
+  max-width: $media-md-min;
+}
+
+.c_player * { transition: all 100ms ease; }
+
+audio { width: 100%; }
+
+#nowPlay { display:inline; }
+
+#npTitle {
+  margin: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+#npAction {
+  padding: 1rem;
+  position: absolute;
+}
+
+#plList { margin:0; }
+
+#plList li {
+  cursor: pointer;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.plItem { position: relative; }
+
+.plTitle {
+  left: 2rem;
+  overflow: hidden;
+  position: absolute;
+  right: 3rem;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+
+.plLength {
+  padding-left: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.plSel *,
+.plSel:hover {
+  cursor: default!important;
+  color: $color-yellow; 
+}
+
+a[id^="btn"] {
+  cursor: pointer;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0 2rem 1rem;
+  text-decoration: none;
+}

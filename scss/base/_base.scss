@@ -20,6 +20,11 @@ a { text-decoration: none; }
 
 img { vertical-align: middle; }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .o_section,
 hr {
   max-width: $media-lg-min;
@@ -37,8 +42,6 @@ hr {
 .o_list li {
   padding-bottom: 0.5rem;
 }
-
-audio { height: 36px; }
 
 hr {
   margin-top: 0;
